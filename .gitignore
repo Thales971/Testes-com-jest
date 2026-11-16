@@ -1,0 +1,42 @@
+# Supremo .gitignore para projetos Node.js + Jest
+# Ignora dependências e arquivos de build
+
+node_modules/
+package-lock.json
+yarn-lock.emerge
+
+# Ide e editor temp files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/*.code-workspace
+/.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Runtime temp
+temp/
+temp-*/
+
+# Production build
+dist/
+build/
+
+# Test coverage
+coverage/
+*.8 coverage/
+coverage/
+
+# Environment env files
+.env*
+!.env.example
+
+# Misc
+.DS_Store
